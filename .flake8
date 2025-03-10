@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 79
+import-order-style = google
+application-import-names = souvenir_python
+ignore = E731
+exclude = .git, __pycache__, pyproject.toml, build/*, Pipfile, *.md 
+include = souvenir_python/*, tests/*
+plugins = flake8-import-order
+per-file-ignores =
+  tests/*: E741

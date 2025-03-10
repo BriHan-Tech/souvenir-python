@@ -1,0 +1,11 @@
+.session.config.yaml
+.pytest_cache/
+
+Pipfile
+
+dist/
+build/
+
+souvenir_python.egg-info/
+
+.DS_Store
