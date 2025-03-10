@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "souvenir-python"
-version = "0.0.2"
+version = "0.0.3"
 description = "A tag identifier library based on https://github.com/j5pr/souvenir"
 authors = [
   {name = "BriHan", email="brihan.tech@gmail.com"}

@@ -2,7 +2,7 @@ import os
 from typing import Protocol, Type
 import uuid
 
-from souvenir_python.base32 import decode, encode
+from souvenir.base32 import decode, encode
 
 # Based off of the repo: https://github.com/j5pr/souvenir
 

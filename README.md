@@ -17,13 +17,29 @@ Found on [PyPI](https://pypi.org/project/souvenir-python/)
 
 ### User
 
-```
-pip install souvenir-python
-```
+1. Installation
+
+    ```sh
+    pip install souvenir-python
+    ```
+
+2. Using the library
+
+    ```py
+    from souvenir import random_id
+
+    class Story(Base):
+        __tablename__ = "stories"
+        id = Column(Text, primary_key=True, default=lambda: str(random_id(Story)))
+
+        @staticmethod
+        def prefix():
+            return "ethosStory"
+    ```
 
 ### Dev
 
-```
+```sh
 pip install ".[dev]"
 ```
 

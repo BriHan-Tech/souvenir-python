@@ -1,4 +1,4 @@
-from souvenir_python import parse_id, parse_uuid, random_id, zero_id
+from souvenir import parse_id, parse_uuid, random_id, zero_id
 
 
 class Test:
